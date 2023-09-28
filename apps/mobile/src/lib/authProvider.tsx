@@ -87,6 +87,7 @@ export function AuthProvider(props: { children: React.ReactNode }) {
         signOut,
         signIn,
         resetOnboarding,
+        // setUser, ?
         completeOnboarding,
       }}
     >

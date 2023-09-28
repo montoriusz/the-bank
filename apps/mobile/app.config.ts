@@ -27,12 +27,13 @@ const defineConfig: ExpoConfig = {
       foregroundImage: "./assets/icon.png",
       backgroundColor: "#1F104A",
     },
+    package: "montoriusz.tha-bank",
   },
-  extra: {
-    eas: {
-      projectId: "677df07c-8718-4abb-8a30-d86f985f47fb", // comment
-    },
-  },
+  // extra: {
+  //   eas: {
+  //     projectId: "677df07c-8718-4abb-8a30-d86f985f47fb", // comment
+  //   },
+  // },
   experiments: {
     tsconfigPaths: true,
     typedRoutes: true,
