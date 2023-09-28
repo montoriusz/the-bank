@@ -190,7 +190,7 @@ importers:
   apps/web:
     dependencies:
       '@clerk/nextjs':
-        specifier: ^4.24.0
+        specifier: ^4.24.1
         version: 4.24.1(next@13.5.2)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-avatar':
         specifier: ^1.0.3
